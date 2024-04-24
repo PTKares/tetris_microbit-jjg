@@ -96,7 +96,7 @@ function checkCompletedLines(): boolean {
     
     
     let removeLine = false
-    // Comprueba cada linea de una en una 
+    // Comprueba cada linea de una en una
     for (i = 0; i < 5; i++) {
         // Si una linea ha sido completada entonces esta deberá de ser eliminada y la puntuación aumentada
         if (tetris[i][1] + tetris[i][2] + tetris[i][3] + tetris[i][4] + tetris[i][5] == on_led_value * 5) {

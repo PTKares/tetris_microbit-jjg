@@ -109,7 +109,7 @@ def checkCompletedLines():
     global score
     removeLine = False
 
-    #Comprueba cada linea de una en una 
+    #Comprueba cada linea de una en una
     for i in range(0, 5):
         
         #Si una linea ha sido completada entonces esta deberá de ser eliminada y la puntuación aumentada
